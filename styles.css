@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #12ADC1;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary)
+}
+
+nav {
+    background-color: var(--darker);
+    text-align: center;
+    /* background-color: #FDD037; */
+}
+
+#heading {
+    font-size: 4rem;
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 1rem;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #bee9fa;
+}
+
+button {
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: large;
+    font-weight: 1000;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    max-height: 80vh;
+    overflow: scroll;
+    color: black;
+    background-color: #bee9fa;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 1rem;
+    /* background-color: #FDD037; */
+    font-family: inherit;
+}
+
+#about {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+    /* font-style: oblique; */
+}
